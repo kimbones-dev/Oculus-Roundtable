@@ -1,0 +1,6 @@
+{
+  "name": "The Oculus Roundtable",
+  "description": "Autonomous multi-agent consensus engine featuring 7 expressive AI personas, elastic round orchestration, and shared frame synthesis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

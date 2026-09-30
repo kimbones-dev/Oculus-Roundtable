@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Orbital Ring -->
+    <path
+        android:pathData="M54,26 A28,28 0 1,0 54,82 A28,28 0 1,0 54,26"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5" />
+
+    <!-- Eye Contour Top and Bottom Curves -->
+    <path
+        android:pathData="M27,54 C35,39 73,39 81,54 C73,69 35,69 27,54 Z"
+        android:fillColor="#151C2C"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.2" />
+
+    <!-- Concentric Iris Outer Ring -->
+    <path
+        android:pathData="M54,42 A12,12 0 1,0 54,66 A12,12 0 1,0 54,42"
+        android:strokeColor="#D500F9"
+        android:strokeWidth="2.0" />
+
+    <!-- Center Pupil Aperture -->
+    <path
+        android:pathData="M54,48 A6,6 0 1,0 54,60 A6,6 0 1,0 54,48"
+        android:fillColor="#00E5FF" />
+
+    <!-- Pupil Core Spark -->
+    <path
+        android:pathData="M54,51 A3,3 0 1,0 54,57 A3,3 0 1,0 54,51"
+        android:fillColor="#FFFFFF" />
+
+    <!-- 7 Nodes around the Oculus (The 7 Personas) -->
+    <!-- 1: Teal (Top) -->
+    <path
+        android:pathData="M54,23 A3,3 0 1,0 54,29 A3,3 0 1,0 54,23"
+        android:fillColor="#00E5FF" />
+    <!-- 2: Crimson (Top Right) -->
+    <path
+        android:pathData="M78,35 A3,3 0 1,0 78,41 A3,3 0 1,0 78,35"
+        android:fillColor="#FF1744" />
+    <!-- 3: Purple (Bottom Right) -->
+    <path
+        android:pathData="M81,62 A3,3 0 1,0 81,68 A3,3 0 1,0 81,62"
+        android:fillColor="#D500F9" />
+    <!-- 4: Amber (Bottom) -->
+    <path
+        android:pathData="M54,79 A3,3 0 1,0 54,85 A3,3 0 1,0 54,79"
+        android:fillColor="#FFAB00" />
+    <!-- 5: Cobalt (Bottom Left) -->
+    <path
+        android:pathData="M27,62 A3,3 0 1,0 27,68 A3,3 0 1,0 27,62"
+        android:fillColor="#2979FF" />
+    <!-- 6: Rose (Top Left) -->
+    <path
+        android:pathData="M30,35 A3,3 0 1,0 30,41 A3,3 0 1,0 30,35"
+        android:fillColor="#FF4081" />
+    <!-- 7: Silver (Center Horizon Offset) -->
+    <path
+        android:pathData="M86,51 A2.5,2.5 0 1,0 86,57 A2.5,2.5 0 1,0 86,51"
+        android:fillColor="#ECEFF1" />
+</vector>
