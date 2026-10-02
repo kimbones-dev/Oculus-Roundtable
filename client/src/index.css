@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Chromatic black vacuum */
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
